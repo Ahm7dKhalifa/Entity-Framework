@@ -34,10 +34,20 @@
 #q/a --> 1
 
 ==========================================
-7.
+7.Types of Entities in Entity Framework :
+- POCO Entities
+- Dynamic Proxy Entities 
+  - enabled vs disabled Dynamic Proxy Entities 
+  - At runtime, EF API will create an instance of dynamic proxy 
+  - Why is EF returning a proxy class instead of the actual entity?
 ==========================================
-
-
+#resources :
+1- https://www.entityframeworktutorial.net/Types-of-Entities.aspx
+2- https://stackoverflow.com/questions/3966797/ef4-difference-between-poco-self-tracking-entities-poco-proxies
+3- https://stackoverflow.com/questions/9501471/why-is-ef-returning-a-proxy-class-instead-of-the-actual-entity
+4- https://patrickdesjardins.com/blog/poco-proxy-and-lazy-loading
+5- https://www.alachisoft.com/resources/articles/entity-framework-poco-lazy-loading.html
+6- https://www.c-sharpcorner.com/UploadFile/5d065a/poco-classes-in-entity-framework/
 ==========================================
 8.
 ==========================================
