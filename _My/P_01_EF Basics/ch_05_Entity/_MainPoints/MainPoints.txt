@@ -48,10 +48,12 @@
 4- https://patrickdesjardins.com/blog/poco-proxy-and-lazy-loading
 5- https://www.alachisoft.com/resources/articles/entity-framework-poco-lazy-loading.html
 6- https://www.c-sharpcorner.com/UploadFile/5d065a/poco-classes-in-entity-framework/
-==========================================
-8.
-==========================================
 
+==========================================
+8.EntityState in Entity Framework
+==========================================
+#resources :
+1- https://www.entityframeworktutorial.net/basics/entity-states.aspx
 
 ==========================================
 9.
