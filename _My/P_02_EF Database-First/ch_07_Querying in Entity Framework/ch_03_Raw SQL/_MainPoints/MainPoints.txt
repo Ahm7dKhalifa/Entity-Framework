@@ -1,28 +1,32 @@
 
 
 ========================================
-1. there are two persistence scenarios to save an entity data
-   - connected scenario
-   - disconnected scenario
-   - job or using of SaveChanges() method
+1.methods can be used to execute raw SQL queries to the database using Entity Framework 6.x:
 ========================================
 #resources :
-1- https://www.entityframeworktutorial.net/crud-operation-in-connected-scenario-entity-framework.aspx
+1- https://www.entityframeworktutorial.net/EntityFramework4.3/raw-sql-query-in-entity-framework.aspx
 
 ==========================================
-2.Insert Data in the connected scenario.
+2.DbSet.SqlQuery()
+- The column names in the SQL query must match with the properties of an entity type, otherwise, it will throw an exception.
+- specify the parameters using the object of SqlParameter
+- The DbSet<TEntity>.SqlQuery() executes the SQL query only for the table which is mapped with the specified entity
 ==========================================
 #q/a --> 1
 
 ==========================================
-3.Updating Data in the connected scenario.
+3.Database.SqlQuery()
+  - Database class represents the underlying database and provides various methods to deal with the databas
+  - Database.SqlQuery() method returns a value of any type.
 ==========================================
 #q/a --> 1
 
 ==========================================
-4.Deleting Data
+4.Database.ExecuteSqlCommand()
+- executing database commands, such as the Insert, Update and Delete command.
+- return value of Database.ExecuteSqlCommand()
 ==========================================
-#q/a --> 1
+
 
 ==========================================
 5.
