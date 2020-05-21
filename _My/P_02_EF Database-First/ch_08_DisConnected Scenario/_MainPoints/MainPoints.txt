@@ -1,0 +1,83 @@
+
+
+========================================
+1.Attach Disconnected Entities
+- There are two things we need to do when we get a disconnected entity graph or even a single disconnected entity.
+- Entity Framework provides the following methods that attach disconnected entities to a context 
+  and also set the EntityState to each entity in an entity graph :
+  - DbContext.Entry()
+  - DbSet.Add()
+  - DbSet.Attach()
+========================================
+#resources :
+1- https://www.entityframeworktutorial.net/EntityFramework5/attach-disconnected-entity-graph.aspx
+
+==========================================
+2.Saving a Disconnected Entity
+  - Saving data in the disconnected scenario is a little bit different than in the connected scenario.
+  - what we need to save a Disconnected Entity
+  - how to determin the state of Disconnected entity ? it is new or existing ?
+  - examples
+==========================================
+#resources :
+1- https://www.entityframeworktutorial.net/entityframework6/save-disconnected-entity-in-entity-framework.aspx
+
+==========================================
+3.Saving a Disconnected Entity Graph
+  - We need to identify the states of each entity in the entity graph before calling the SaveChages() method
+  - how to identify the states of each entity using key Property
+==========================================
+#resources :
+1- https://www.entityframeworktutorial.net/entityframework6/save-entity-graph.aspx
+
+==========================================
+4.Delete a Disconnected Entity Graph
+  - set its state to Delete using the Entry() method
+  - To delete an entity, it only requires a key property
+  - sql generated
+==========================================
+#resources :
+1- https://www.entityframeworktutorial.net/entityframework6/delete-disconnected-entity-in-entity-framework.aspx
+
+==========================================
+5.
+==========================================
+
+
+==========================================
+6.
+==========================================
+
+
+==========================================
+7.
+==========================================
+
+
+==========================================
+8.
+==========================================
+
+
+==========================================
+9.
+==========================================
+
+
+==========================================
+10.
+==========================================
+
+==========================================
+11.
+==========================================
+
+
+==========================================
+12.
+==========================================
+
+
+==========================================
+13.
+==========================================
